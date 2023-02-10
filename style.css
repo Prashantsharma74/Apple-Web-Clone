@@ -1,0 +1,950 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+}
+
+nav ul {
+    margin-left: 40px;
+    color: lightgray;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    width: 70px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: white;
+}
+
+nav ul li:nth-child(1) {
+    font-size: 15px;
+}
+
+nav ul li:nth-child(8) {
+    width: 100px;
+}
+
+nav ul li:nth-child(9) {
+    width: 100px;
+}
+
+nav ul li:nth-child(10) {
+    width: 100px;
+}
+
+nav ul li:nth-child(11) {
+    width: 80px;
+}
+
+nav ul li:nth-child(12) {
+    margin-right: -20px;
+}
+
+nav span {
+    display: none;
+}
+
+/* EMI CARD CREDIT  */
+
+.emi {
+    height: max-content;
+    background-color: rgba(29, 29, 31, 1);
+    color: #f5f5f7;
+    font-size: 14px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emi a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Video Section  */
+
+.video {
+    height: 85vh;
+    background-image: url('./images/bg.jpg');
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.video .main {
+    margin-top: 80px;
+    height: 380px;
+    width: 730;
+    padding: 50px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+}
+
+.video .main p {
+    font-size: 25px;
+}
+
+.video .main h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 105px;
+    font-weight: 300;
+}
+
+.video .main h3 {
+    font-size: 20px;
+}
+
+.video span button {
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+}
+.video span button:hover{
+    background-color: rgb(204, 204, 204);
+}
+
+.video span button:nth-child(1) {
+    width: 170px;
+    height: 40px;
+}
+
+.video span button:nth-child(2) {
+    width: 140px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+/* iphone section  */
+
+.phone {
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone .main {
+    height: 35vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.phone .main h1 {
+    font-size: 55px;
+}
+
+.phone .main h3 {
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.phone .main button {
+    margin-top: 10px;
+    background: black;
+    color: white;
+    height: 28px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.phone .main span {
+    display: flex;
+
+}
+
+.phone .main span a {
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.phone .main span a:nth-child(2) {
+    margin-left: 80px;
+}
+
+/* iphone image  */
+
+.mobile {
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile img {
+
+    height: 50vh;
+}
+
+/* 14 pro  */
+
+.pro {
+    margin-top: 5px;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro .main {
+    height: 35vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.pro .main h1 {
+    font-size: 55px;
+}
+
+.pro .main h3 {
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.pro .main button {
+    margin-top: 5px;
+    height: 28px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.pro .main span {
+    display: flex;
+
+}
+
+.pro .main span a {
+    margin-top: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.pro .main span a:nth-child(2) {
+    margin-left: 80px;
+}
+
+/* two mobile  */
+
+.twomobile {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twomobile img {
+    height: 60vh;
+}
+
+/* Home pod  */
+
+.homepod {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homepod div .x {
+    height: 23vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.homepod div .x h2 {
+    font-size: 50px;
+}
+
+.homepod div .x p {
+    font-size: 20px;
+}
+
+.homepod div {
+    padding: 40px 20px;
+    color: white;
+    background-color: black;
+    height: 97vh;
+    width: 49.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.homepod div span .btn {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homepod div span a {
+    text-decoration: none;
+}
+
+.homepod img {
+    height: 300px;
+}
+
+.homepod .x .btn a {
+    color: #2997ff;
+}
+
+.homepod .speaker {
+    height: 350px;
+}
+
+/* Watch section  */
+
+.watch {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.watch div .y {
+    height: 18vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.watch div {
+    padding: 40px 0 0 20px;
+    color: white;
+    background-color: black;
+    height: 90vh;
+    width: 49.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.watch div .y {
+    height: 16vh;
+    width: 100%;
+}
+
+.watch div span a {
+    text-decoration: none;
+}
+
+.watch div .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.watch div img {
+    height: 350px;
+}
+
+.watch .speaker {
+    height: 350px;
+}
+
+/* iPad section  */
+
+.watch {
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.watch div .y {
+    height: 18vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.watch div {
+    padding: 40px 0 0 20px;
+    color: white;
+    background-color: black;
+    height: 90vh;
+    width: 49.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.watch div .y {
+    height: 16vh;
+    width: 100%;
+}
+
+.watch div span a {
+    text-decoration: none;
+}
+
+.watch div .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+/* ipad section   */
+
+.ipad {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ipad div {
+    background-color: orange;
+    height: 90vh;
+    width: 49.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ipad div .y {
+    margin-top: 20px;
+    height: 18vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ipad div .y h2 {
+    font-size: 35px;
+}
+
+.ipad div p {
+    font-size: 20px;
+}
+
+.ipad div .btn {
+    margin-bottom: 20px;
+}
+
+.ipad div img {
+    height: 380px;
+}
+
+.ipad .speaker {
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.ipad div .y .btn {
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ipad div a {
+    text-decoration: none;
+    width: 100px;
+}
+
+/* stream now section  */
+
+.stream {
+    width: 100%;
+    padding: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stream div {
+    padding: 60px 110px;
+    width: 90%;
+    background-image: url('https://is1-ssl.mzstatic.com/image/thumb/qL-yBoKCFztx-kDyvIXlHw/980x551.jpg');
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.stream div button {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.stream div p {
+    color: white;
+    font-size: 25px;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+
+.stream div .break {
+    margin-left: 0px;
+}
+
+/* Para section  */
+
+.para {
+    height: 58vh;
+    background-color: #efeff0;
+    padding: 18px 160px;
+    font-size: 13px;
+}
+
+.para p:nth-child(2) {
+    margin-top: 10px;
+}
+
+.para p:nth-child(3) {
+    margin-top: 10px;
+}
+
+.para p:nth-child(4) {
+    margin-top: 10px;
+}
+
+.para p:nth-child(5) {
+    margin-top: 10px;
+}
+
+/* menu section  */
+
+.menu-section {
+    padding: 50px 160px;
+    height: 70vh;
+    background-color:  #efeff0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.menu-section div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-section div{
+    font-size: 12px;
+}
+.menu-section .account .entertain {
+    margin-top: 10px;
+}
+.menu-section div p{
+    margin-top: 10px;
+    color: rgb(17, 16, 16);
+}
+.menu-section .hidden{
+    display: none;
+}
+.menu-section ul li,
+.menu-section ul a {
+    list-style: none;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(107, 106, 106);
+}
+
+
+/* Last second section  */
+
+.emergency{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  #efeff0;
+    padding:0px 150px ;
+}
+.emergency p{
+    font-size: 12px;
+    color: rgb(107, 106, 106);
+}
+.emergency hr{
+    width:100%;
+    margin-top: 3px;
+}
+
+/* Copyright  */
+
+.copyright{
+    padding: 0px 150px;
+    font-size: 13px;
+    background-color:  #efeff0;
+    color: rgb(107, 106, 106);
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.copyright ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+}
+.copyright ul a{
+    text-decoration:none;
+    color: rgb(107, 106, 106);
+}
+.copyright ul a:hover{
+    border-bottom: 1px solid rgb(107, 106, 106);
+    cursor: pointer;
+}
+.copyright .india:hover{
+    cursor: pointer;
+    border-bottom: 1px solid rgb(107, 106, 106);
+}
+
+/* Responsive  */
+
+@media (max-width:768px) {
+    nav span {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        color: white;
+    }
+
+    header {
+        height: 10vh;
+        padding: 8px 25px;
+    }
+
+    nav {
+        color: lightgray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav :hover {
+        color: white;
+    }
+
+    /* Card emi  */
+
+    .emi {
+        padding: 10px 30px;
+        text-align: center;
+    }
+
+    /* main section  */
+
+    .video .main {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    /* iphone 14 pro  */
+
+    .phone .main {
+        margin-top: 13px;
+        width: 60%;
+    }
+
+    .phone .main h1 {
+        font-size: 35px;
+    }
+
+    .phone .main h3 {
+        font-size: 17px;
+    }
+
+    .mobile img {
+        width: 100%;
+    }
+
+    /* mobile  */
+
+    .pro .main {
+        margin-top: 13px;
+        width: 60%;
+    }
+
+    .pro .main h1 {
+        font-size: 35px;
+    }
+
+    .pro .main h3 {
+        font-size: 17px;
+    }
+
+    .twomobile {
+        height: 80vh;
+    }
+
+    .twomobile img {
+        height: 80vh;
+
+    }
+
+    .homepod {
+        margin-top: 10px;
+        padding: 0px;
+        height: 203vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .homepod div {
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .homepod div .x {
+        padding: 20px;
+    }
+
+    .homepod div .x .btn {
+        margin-top: 10px;
+        width: 60%;
+    }
+
+    .homepod img {
+        height: 270px;
+    }
+
+    .homepod .y {
+        margin-top: -20px;
+    }
+
+    .homepod .speaker {
+        height: 240px;
+        width: 100%;
+    }
+
+    /* watch section  */
+
+    .watch {
+        margin-top: 10px;
+        padding: 0px;
+        height: 203vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .watch div {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .watch div span h2 {
+        font-size: 30px;
+    }
+
+    .watch div span p {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .watch div span .btn {
+        margin-top: 10px;
+    }
+
+    .watch div img {
+        height: 300px;
+    }
+
+    .watch div .speaker {
+        height: 300px;
+    }
+
+    /* ipad section  */
+
+    .ipad {
+        padding: 0px;
+        width: 100%;
+        height: 203vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .ipad div {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .ipad div img {
+        height: 300px;
+    }
+
+    .ipad div .speaker {
+        height: 300px;
+    }
+
+    /* stream section  */
+
+    .stream {
+        margin-top: 10px;
+        padding: 0px;
+        height: 57vh;
+        width: 100%;
+    }
+
+    .stream div {
+        padding: 30px 40px;
+        width: 100%;
+        height: 57vh;
+        background-size: 500px;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+
+    .stream div button {
+        height: 40px;
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .stream div p {
+        font-size: 15px;
+    }
+
+    /* PARA SECTION  */
+
+    .para {
+        margin-top: 15px;
+        color: #777779;
+        padding: 10px;
+        height: fit-content;
+        width: 100%;
+    }
+
+    .para p {
+        font-size: 12px;
+    }
+
+    /* menu section  */
+
+    .menu-section .x-1{
+        display: none;
+    }
+    .menu-section .hidden{
+        display: block;
+    }
+    .menu-section {
+        padding: 0px;
+        height: 130vh;
+        width: 100%;
+    }
+    .menu-section .hidden{
+        font-size: 13px;
+        padding: 5px 22px;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .menu-section .hidden span{
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .menu-section .hidden span i{
+        margin-top: 2px;
+    }
+    .emergency{
+        
+        height: 15vh;
+        padding: 0px 25px;
+        width: 100%;
+    } 
+    .emergency p{
+        margin-top: 20px;
+    }
+    .copyright{
+        display: none;
+    }
+
+}
